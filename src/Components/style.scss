@@ -1,0 +1,122 @@
+.base-container-mainpage{
+    display: flex;
+    height: 1000px;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.base-container-table{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 40px;
+    flex-direction: column;
+    
+    .mainRow{
+        border: 0px solid black;
+        padding: 10px;
+        font-size: xx-large;
+        color: blueviolet;
+    }
+
+    .mainRowW{
+        border: 0px solid black;
+        padding: 10px;
+        font-size: xx-large;
+        color: rgba(145, 9, 9, 0.856);
+        text-align: center;
+    }
+
+    .mainRowE{
+        border: 0px solid black;
+        padding: 10px;
+        font-size: xx-large;
+        color: blue;
+    }
+
+    .experienceRow{
+        border: 0px solid black;
+        padding: 10px;
+        font-size: xx-large;
+        color: rgba(65, 61, 61, 0.815);
+    }
+
+    .experienceInfoRow{
+        border: 0px solid black;
+        padding: 10px;
+        align-content: center;
+        border-spacing: 0 15px;
+        width: 45%;
+        font-size: x-large;
+        color: green;
+
+        .experienceInfoColumn{
+            margin-left: 10px;
+        }
+    }
+
+    .accordionS{
+        width: 100%;
+        margin-bottom: 70px;
+
+        .workName{
+            font-size: xx-large;
+        }
+
+        .workInfo{
+            font-size: x-large;
+        }
+    }
+
+    .rows{
+        border: 0px solid black;
+        padding: 10px;
+        text-align: center;
+        align-content: center;
+        border-spacing: 0 15px;
+        width: 45%;
+        font-size: x-large;
+        color: green;
+
+        .columnsW{
+            width: auto;
+            text-align: center;
+            margin-left: 15%;
+            .imageW{
+                width: 80%;
+                height: 800px;
+            }
+        }
+    }
+
+    .rows1{
+        border: 0px solid black;
+        padding: 10px;
+        align-content: center;
+        border-spacing: 0 15px;
+        width: 45%;
+        font-size: x-large;
+        color: rgb(13, 165, 140);
+    }
+
+    .columns{
+        width: 45%;
+        
+        .image{
+            width: 100%;
+            height: 40%;
+        }
+    }
+
+    
+
+}
+
+.page-content{
+    background-color: black;
+}
